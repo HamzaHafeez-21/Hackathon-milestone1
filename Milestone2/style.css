@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    margin:0;
+
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 50px;
+    justify-content: center;
+
+}
+.left{
+    width: 20%;
+    background-color: rgb(181, 208, 231);
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.img{
+    border-radius: 50%;
+}
+
+.right{
+    width: 35%;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    text-align: center;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid whitesmoke;
+}
